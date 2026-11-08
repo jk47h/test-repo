@@ -18,6 +18,11 @@
         padding: 12px;
         font-size: 16px;
       }
+      textarea {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 12px;
+      }
       pre {
         white-space: pre-wrap;
         background: #f2f2f2;
@@ -27,14 +32,21 @@
     </style>
   </head>
   <body>
-    <h1>Kopf frei Versuch 1</h1>
-    <p>Speicher (V-6) und Passkey mit PRF (V-7).</p>
+    <h1>Kopf frei Versuch 1 und 2</h1>
+    <p>Speicher (V-6), Passkey mit PRF (V-7) und Web Push (V-5).</p>
     <button id="info">0. Geraet und Modus anzeigen</button>
     <button id="persist">1. Dauerhaften Speicher anfragen</button>
     <button id="create">2. Passkey anlegen</button>
     <button id="unlock">3. Mit Passkey entsperren</button>
+    <button id="push">4. Mitteilungen erlauben</button>
+    <button id="build">5. Umschlaege verschluesseln</button>
+    <button id="share">6. Umschlaege teilen</button>
+    <button id="copy">Umschlaege kopieren</button>
+    <textarea id="envelopes" rows="6" readonly></textarea>
+    <button id="unsubscribe">Abo loeschen</button>
     <button id="clear">Ergebnisse leeren</button>
     <pre id="log"></pre>
     <script src="app.js"></script>
+    <script src="push.js"></script>
   </body>
 </html>
