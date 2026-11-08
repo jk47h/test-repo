@@ -1,0 +1,9 @@
+{
+  "name": "Kopf frei Versuch",
+  "short_name": "KF Versuch",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}

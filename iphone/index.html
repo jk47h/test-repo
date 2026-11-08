@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kopf frei Versuch</title>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <style>
+      body {
+        font-family: -apple-system, system-ui, sans-serif;
+        margin: 16px;
+        line-height: 1.4;
+      }
+      button {
+        display: block;
+        width: 100%;
+        margin: 8px 0;
+        padding: 12px;
+        font-size: 16px;
+      }
+      pre {
+        white-space: pre-wrap;
+        background: #f2f2f2;
+        padding: 8px;
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Kopf frei Versuch 1</h1>
+    <p>Speicher (V-6) und Passkey mit PRF (V-7).</p>
+    <button id="info">0. Geraet und Modus anzeigen</button>
+    <button id="persist">1. Dauerhaften Speicher anfragen</button>
+    <button id="create">2. Passkey anlegen</button>
+    <button id="unlock">3. Mit Passkey entsperren</button>
+    <button id="clear">Ergebnisse leeren</button>
+    <pre id="log"></pre>
+    <script src="app.js"></script>
+  </body>
+</html>
