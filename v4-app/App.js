@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { Platform, Pressable, StyleSheet, Text, View } from "react-native";
 
 // Step 8 of the experiment changes this text for the second build.
-const STAND = "erster Bau";
+const STAND = "zweiter Bau";
 
 /** Sends a message to the service worker and waits for its answer. */
 async function askWorker(message) {
