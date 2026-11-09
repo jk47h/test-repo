@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "KF Versuch 3",
+    "slug": "kf-versuch-3",
+    "version": "1.0.0",
+    "web": {
+      "output": "single"
+    },
+    "experiments": {
+      "baseUrl": "/test-repo/v4"
+    }
+  }
+}

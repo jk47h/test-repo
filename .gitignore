@@ -1,2 +1,7 @@
 # The private VAPID key and the envelopes stay on the computer.
 tools/geheim/
+
+# Installed packages and Expo's local cache for experiment 3.
+v4-app/node_modules/
+v4-app/.expo/
+v4-app/dist/

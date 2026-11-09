@@ -1,0 +1,9 @@
+{
+  "name": "KF Versuch 3",
+  "short_name": "KF Versuch 3",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}
