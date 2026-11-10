@@ -1,7 +1,9 @@
 {
-  "version": "fa99c0ad3dcf",
+  "version": "501731184c53",
   "files": [
-    "_expo/static/js/web/index-6ac814a9c588c71cb4b7796aaaeb8f57.js",
+    "_expo/static/js/web/index-ce559c380b993af63be3b1c70be1740c.js",
+    "_expo/static/js/web/worker-0b478af107f1f98081e933e33d93f75b.js",
+    "assets/node_modules/expo-sqlite/web/wa-sqlite/wa-sqlite.5e61fe84c4a4f49e0b1a33661b45c791.wasm",
     "index.html",
     "manifest.json",
     "metadata.json"
