@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "KF Versuch 5",
+    "slug": "kf-versuch-5",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.kopffrei.versuch5"
+    },
+    "plugins": [
+      [
+        "expo-sqlite",
+        {
+          "useSQLCipher": true
+        }
+      ],
+      "expo-secure-store",
+      "react-native-libsodium",
+      "react-native-quick-crypto"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "bed267e1-a3c5-4f5c-9a70-e0cc6edc759b"
+      }
+    },
+    "owner": "jk47h"
+  }
+}

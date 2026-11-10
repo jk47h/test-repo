@@ -5,3 +5,8 @@ tools/geheim/
 v4-app/node_modules/
 v4-app/.expo/
 v4-app/dist/
+
+# Installed packages and Expo files for experiment 5.
+v5-app/node_modules/
+v5-app/.expo/
+v5-app/android/
